@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper]{ltjsarticle} % lualatex
+%
+\usepackage{fontspec}
+%
+\usepackage{amsmath,amssymb} % 数式用
+\usepackage{amsthm} % 定理環境
+\usepackage{braket} % カッコ
+\usepackage{prettyref} % 相互参照
+%
+%%%%======prettyref===========%%%%%%%%%
+%
+\newrefformat{eq}{式{\eqref{#1}}}
+\newrefformat{thm}{定理{\ref{#1}}}
+\newrefformat{ex}{例{\ref{#1}}}
+\newrefformat{lemma}{補題{\ref{#1}}}
+%
+%%%%%%======biblatex=============%%%%%%%%%%
+%
+\usepackage[% 
+backend=biber,
+url=false,
+doi=false,
+eprint=false,
+articletitle=true,
+isbn=true,
+style=phys
+]{biblatex} % use "biblatex"
+\DeclareSortingTemplate{mysorting}{
+  \sort{\citeorder}
+  \sort{\field{sotname} \field{author} \field{translator} \field{editor}}
+  \sort{\field{year}}
+  \sort{\field{title}}
+}
+%
+\DeclareFieldFormat[article]{journaltitle}{\mkbibemph{#1}}
+\DeclareFieldFormat[book]{title}{\mkbibemph{#1}}
+\ExecuteBibliographyOptions{sorting=mysorting}
+%
+%
+%%%%%%%%%%%%%%========hyperref============%%%%%%%%%%
+%
+\usepackage[unicode]{hyperref} % hyperlink
+\hypersetup{% setting hyperref
+  bookmarksnumbered=true,
+  bookmarksopen=true,
+  bookmarkstype=toc,
+  pdfborder={0 0 0},
+  colorlinks=true
+}
+%
+%%%%%%==========定理環境のカスタマイズ===============%%%%%%%%%
+%
+\newtheoremstyle{mystyle} % 定理環境のスタイルを作成
+{} % space above
+{} % space below
+{\normalfont} % body font 
+{} % indent amount
+{\bfseries} % theorem head font
+{} % punctuation after theorem head
+{10pt} % space after theorem head
+{\thmname{#1}\thmnumber{#2}\thmnote{\textbf{\hspace{1pt}（#3）}}} % theorem head spec
+\theoremstyle{mystyle} % 作成したスタイルを使用
+%
+\newtheorem*{dfn}{定義} % \begin{dfn} で定義を書く
+\newtheorem{thm}{定理} % \begin{thm} で定理を書く
+\newtheorem{ex}{例} % \begin{ex} で例を出す
+\newtheorem{lemma}{補題} % \begin{lemma} で補題
+\newtheorem*{coro}{系}  % \begin{coro} で系
+%
+%
+%%%%%================proof環境のカスタマイズ========================%%%%%%%%%%%
+\makeatletter
+\renewenvironment{proof}[1][\proofname]{\par
+  \pushQED{\qed}%
+  \normalfont \topsep6\p@\@plus6\p@\relax
+  \trivlist
+\item[\hskip\labelsep
+  \itshape
+  %    #1\@addpunct{.}]\ignorespaces% DELETED
+  #1]\ignorespaces% ADDED
+  }{%
+  \popQED\endtrivlist\@endpefalse
+}
+\makeatother
+%                       ドットが消える
+\renewcommand{\proofname}{\textbf{［証明］}}
+%
+%%%%%%%%%%%%==========タイトル===============%%%%%
+\title{漸化式の解を推測するアレがアレな件}
+\author{野口 匠}
+\date{2018/12/22}
+\begin{document}
+%
+\maketitle
+%
+ほげほげ
+\end{document}
