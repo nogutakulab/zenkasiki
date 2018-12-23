@@ -1,0 +1,1 @@
+/home/nogutaku/dotfiles/.latexmkrc

@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  23 DEC 2018 22:40
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  24 DEC 2018 00:08
  restricted system commands enabled.
 **inddef.tex
 (./inddef.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.343 seconds
+luaotfload | main : initialization completed in 0.238 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/09/23 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1084,9 +1084,9 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 \@quotelevel=\count411
 \@quotereset=\count412
 
-No file inddef.aux.
-
+(./inddef.aux)
 \openout1 = inddef.aux
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
 LaTeX Font Info:    ... okay on input line 92.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
@@ -1109,7 +1109,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
 LaTeX Font Info:    ... okay on input line 92.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 92.
 LaTeX Font Info:    ... okay on input line 92.
-ABD: EverySelectfont initializing macros
+ ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 92.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -1174,11 +1174,32 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout4 = inddef.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'inddef.bbl' not found.
+Package biblatex Info: ... file 'inddef.bbl' found.
+ (./inddef.bbl
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 46.
 
-No file inddef.bbl.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 46.
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 4.62357pt on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 6.47295pt on input line 46.
+luaotfload | aux : font no 62 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 62)
 Package biblatex Info: Reference section=0 on input line 92.
 Package biblatex Info: Reference segment=0 on input line 92.
+
 (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 LaTeX Info: Redefining \color on input line 86.
@@ -1217,21 +1238,23 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 92.
 LaTeX Info: Redefining \pageref on input line 92.
 LaTeX Info: Redefining \nameref on input line 92.
+
+(./inddef.out) (./inddef.out)
 \@outlinefile=\write5
 
 \openout5 = inddef.out
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 96.
-luaotfload | aux : font no 41 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 64 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 41
+luaotfload | aux : no font with id 64
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 15.97903pt on input line 96.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 96.
-luaotfload | aux : font no 44 (nil) does not define feature vrt2 for script dflt
+luaotfload | aux : font no 67 (nil) does not define feature vrt2 for script dflt
  with language dflt
-luaotfload | aux : no font with id 44
+luaotfload | aux : no font with id 67
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 11.09656pt on input line 96.
 LaTeX Font Info:    Calculating math sizes for size <13.14001> on input line 96.
@@ -1240,64 +1263,63 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 7.76755pt on input line 96.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 96.
-LaTeX Font Info:    Try loading font information for U+msa on input line 96.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 96.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
+LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
+(Font)              scaled to size 13.31584pt on input line 98.
+luaotfload | aux : font no 92 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 92
+LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
+(Font)              scaled to size 13.31584pt on input line 98.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 13.31584pt on input line 98.
+luaotfload | aux : font no 94 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 94
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 13.31584pt on input line 98.
+LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 98.
+luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
+ with language dflt
+luaotfload | aux : no font with id 37
+LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
+(Font)              scaled to size 9.24713pt on input line 98.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
  (./inddef.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
-
-
-Package rerunfilecheck Warning: File `inddef.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `inddef.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                inddef
-(biblatex)                and rerun LaTeX afterwards.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+Package rerunfilecheck Info: File `inddef.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'inddef.run.xml'.
 
 \openout1 = inddef.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 28000 strings out of 494407
+ 28292 strings out of 494407
  100000,1144653 words of node,token memory allocated
- 5751 words of node memory still in use:
-   10 hlist, 2 vlist, 5 rule, 2 glue, 78 kern, 1 glyph, 2201 attribute, 85 glue_
-spec, 120 attribute_list, 1 write, 14 user_defined nodes
-   avail lists: 1:9,2:3463,3:26,4:51,5:16,6:8,7:210,8:52,9:46,10:17
- 31550 multiletter control sequences out of 65536+600000
- 67 fonts using 36000527 bytes
- 56i,6n,74p,983b,785s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.o
-tf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regula
-r.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf
->
-Output written on inddef.pdf (1 page, 116952 bytes).
+ 7541 words of node memory still in use:
+   10 hlist, 2 vlist, 5 rule, 2 glue, 109 kern, 1 glyph, 2941 attribute, 100 glu
+e_spec, 157 attribute_list, 1 write, 14 user_defined, 1 pdf_action nodes
+   avail lists: 1:9,2:10021,3:133,4:93,5:17,6:14,7:710,8:148,9:72,10:17
+ 31785 multiletter control sequences out of 65536+600000
+ 97 fonts using 51813823 bytes
+ 56i,6n,74p,983b,1107s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman7-regular.
+otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexg.ttf><
+/usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman12-regular
+.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaexm.ttf>
 
-PDF statistics: 34 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 131072)
+Output written on inddef.pdf (1 page, 237880 bytes).
+
+PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
