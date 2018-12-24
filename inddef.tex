@@ -33,7 +33,7 @@ style=phys
 }
 %
 \DeclareFieldFormat[article]{journaltitle}{\mkbibemph{#1}}
-\DeclareFieldFormat[book]{title}{\mkbibemph{#1}}
+\DeclareFieldFormat[book]{title}{\mkbibacro{#1}}
 \ExecuteBibliographyOptions{sorting=mysorting}
 %
 \addbibresource{bib/youryou.bib}
@@ -66,7 +66,8 @@ style=phys
 \newtheorem{lemma}{補題} % \begin{lemma} で補題
 \newtheorem*{coro}{系}  % \begin{coro} で系
 \newtheorem{que}{問} % \begin{que} で問
-\newtheorem*{ans}{［解答］} % \begin{ans}で解答
+\newtheorem*{ans}{［解答］} % \begin{ans} で解答
+\newtheorem*{ans2}{［別解］} % \begin{ans2} で別解
 %
 %
 %%%%%================proof環境のカスタマイズ========================%%%%%%%%%%%
@@ -86,36 +87,170 @@ style=phys
 %                       ドットが消える
 \renewcommand{\proofname}{\textbf{［証明］}}
 %
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+%
 %%%%%%%%%%%%==========タイトル===============%%%%%
 \title{漸化式の解を推測するアレがアレな件}
-\author{野口 匠}
-\date{2018/12/22}
+\author{NOGUTAKU Lab}
+\date{\today}
 \begin{document}
 %
 \maketitle
+
+本稿を読む上で，以下の点に注意していただきたい．
+\begin{itemize}
+  \item 本稿では，0を自然数に含めるとする．
+    そのため，引用されている問題や解答が引用元とは
+    若干異なるものになっていることがある．
+    これは，自然数に0を含める立場と含めない立場が
+    混在してしまったときに生じる混乱を避けるためである．
+    また，自然数全体の集合と実数全体の集合をそれぞれ
+    $\mathbb{N}, \mathbb{R}$と表す．
+  \item 集合と写像に関する基本的な知識は既知とし，
+    なんら解説なく用いることにする．
+    前半部分は集合や写像に関する知識がなくても
+    高校の数学Bレベルの知識があれば読めないこともないが，
+    後半部分はほとんど無理だろうと思われる．
+  \item 数学的帰納法のことをしばしば帰納法と略記する．
+  \item 数列を，$\mathbb{N}$から$\mathbb{R}$への写像と定義して議論を進める．
+  \item 集合$X,Y$に対し，$X$から$Y$への写像全体の集合を$Y^X$と表す．
+  \item 写像$f \colon X \longrightarrow Y$と$A \subset X$に対し，
+    $f|_A$は$f$の始集合を$A$に制限したものを表す．
+  \item 整列集合$(W, \leq)$と$x \in W$に対し，$W$の部分集合
+    $\Set{ w \in W \mid w < x}$を$W \langle x \rangle$と表す．
+    ひとまずは$n \in \mathbb{N}$に対し，
+    $\mathbb{N} \langle n \rangle = \Set{ 0, 1, \ldots, n-1}$
+    であることさえわかっていれば問題ない．
+\end{itemize}
 %
+
+\section{「推測して帰納法」の問題点}
+
 漸化式によって帰納的に定義された数列の一般項を求める
 という問題は，大学受験レベルの問題でよくあるものである．
 その中で，「一般項を推測して帰納法で示す」というものがあった．
-高校の数学Bの教科書を見てみると，次のような問題が記載されている．
+高校の数学Bの教科書\cite{kyoukasyo}を見てみると，次のような問題が記載されている．
+
 \begin{que} \label{que:suisoku}
-  （ここに引用する問題が入る）
+  次の条件によって定められる数列$\{ a_n \}$がある．
+  \begin{align*}
+    a_0 & = 2 , \\
+    a_{n+1} & = 2- \frac{2}{a_n} \quad ( n = 0,1, \ldots).
+  \end{align*}
+  \begin{enumerate}
+    \item $a_1,a_2,a_3$を求めよ．
+    \item 第$n$項$a_n$を推測して，それを数学的帰納法を用いて証明せよ．
+  \end{enumerate}
 \end{que}
-この問題に対する解答は次のようになっている．
+
+教科書ではこの問題は演習問題として載せられているため，
+詳細な解答は見られない．そこで，
+出版社が同じであり，かつ
+大学受験用参考書として定評のある\cite{chert}中の
+類似した問題を見てみる．
+\begin{que}
+  \begin{align}
+    \begin{aligned}
+      a_0 & = 1, \\
+      a_{n+1} & = \frac{a_n}{1 + 3 a_n} \quad ( n = 0,1,\ldots )
+    \end{aligned}
+    \label{eq:zenkasiki}
+  \end{align}
+  で定められる数列$\{ a_n \}$について，
+  \begin{enumerate}
+    \item $a_1,a_2,a_3$を求めよ．
+    \item $a_n$を$n$で表す式を推測し，それを数学的帰納法で証明せよ．
+  \end{enumerate}
+\end{que}
+
+この問題には詳細な解答が載せられている．
+
 \begin{ans}
-  ここに解答
+  $a_1=1/4, \, a_2 = 1/7 , \, a_3 = 1/10$だから，
+  $a_n = 1/(3n+1) \ (n \in \mathbb{N})$と推測される．
+  これを帰納法によって示す．
+  $a_0 = 1, \, 1/(3 \cdot 0+1)=1$より
+  $a_0 = 1/ (3 \cdot 0 +1 )$である．
+  $a_k= 1/(3k+1)$が成り立つと仮定すると，
+  \begin{align*}
+    a_{k+1} & = \frac{a_k}{1+3a_k} \\
+            & = \frac{ \dfrac{1}{3k+1} }{ 1 + 3 \dfrac{1}{3k+1} } \\
+            & = \frac{1}{3k+4}
+  \end{align*}
+  となる．ゆえにすべての自然数$n$に対して$a_n=1/(3n+1)$となる．
 \end{ans}
+
+この解答は，いわゆる受験業界では非常によく知られたものである．
+また，「数学的帰納法で」という文言を無視すれば，
+別解として次のようなものがあることも見逃せない．
+
+\begin{ans2}
+  $a_1 = 1/4 , \, a_2 = 1/7 , \, a_3 = 1/10$であるから，
+  $a_n = 1/(3n+1) \ (n \in \mathbb{N})$と推測できる．
+  実際，$a_n = 1/(3n+1) \ (n \in \mathbb{N})$とすると，
+  この数列$\{ a_n \}$は，$a_0 = 1/(3 \cdot 0 + 1)=1$を
+  満たし，さらに各$n \in \mathbb{N}$に対して
+  \begin{align*}
+    \frac{a_n}{1+ 3 a_n} & = 
+    \frac{ \dfrac{1}{3n+1} }{ 1+ 3 \dfrac{1}{3n+1} } \\
+    & = \frac{1}{3n+4} \\
+    & = a_{n+1}
+  \end{align*}
+  を満たす．
+\end{ans2}
+
+
+ 
+まず［別解］に関してだが，明確に穴があるように思われる．
+それは，「数列$\{ 1/(3n+1) \}$以外に\prettyref{eq:zenkasiki}を
+満たす数列が存在するかどうか」がまったく検討されていない点である．
+このギャップを埋めるには，［別解］に続けて\prettyref{eq:zenkasiki}を
+満たす任意の数列$\{ a_n \}$が$\{ 1/(3n+1) \}$に等しいことを示せばよい．
+すなわち，\prettyref{eq:zenkasiki}を満たす任意の数列$\{a_n \}$に対し，
+すべての自然数$n$に対して$a_n = 1/(3n+1)$が成り立つことを示せばよい．
+帰納法によるのが普通だろう．
+この証明はすでに述べられたような気がしなくもない．
+実際に書いてみればわかると思うが，これは
+\emph{［解答］で述べた証明とまったく同じである．}
+
+［解答］と［別解］で何をやったのかを整理しよう．
+［解答］では，「\prettyref{eq:zenkasiki}を満たす数列$\{ a_n \}$を
+任意にとったとき，すべての自然数$n$に対して$a_n = 1/(3n+1)$が成り立つ」
+ことを帰納法によって示している．
+このことからわかるのは，「\prettyref{eq:zenkasiki}を満たす数列$\{ a_n \}$で，
+数列$\{ 1/(3n+1) \}$と等しくないものは存在しない」ということである．
+このことからわかるのは，\prettyref{eq:zenkasiki}を満たす数列が
+たかだか1つであるということである．
+［別解］では，「数列$\{ 1/(3n+1) \}$が\prettyref{eq:zenkasiki}を満たすこと」
+を示している．このことから，
+「\prettyref{eq:zenkasiki}」を満たす数列が存在することがわかる．
+
+従って，\prettyref{eq:zenkasiki}を満たす数列が数列$\{ 1/(3n+1) \}$
+\emph{のみである}ことを示すためには，［解答］と［別解］の
+両方の記述を合わせなくてはならず，
+どちらも問題の解答としては不十分なのである
+\footnote{
+  すぐ後にこの言説には致命的な欠陥が存在することを述べる．
+}
+．
+
+
+\section{何が問題なのか}
+「推測して帰納法」という解法の問題点を述べたが，この言説には致命的な欠陥が存在する．
+それは，実は［解答］の中で「数列$\{ 1/(3n+1) \}$が\prettyref{eq:zenkasiki}を
+満たすこと」とほぼ同じことが示されているのである．
+ 
 
 定式化して証明を述べておこう．
 \begin{thm} \label{thm:inddef}
-  空でない集合$X$と写像$G \colon \bigcup_{n \in \mathbb{N}} 
+  空でない集合$X$と写像$G \colon \bigcup_{n \in \mathbb{N} } 
   X^{\mathbb{N} \langle n \rangle} \longrightarrow X$
   が与えられたとする．
   このとき，$x_0 \in X$を1つ定めるごとに，
   写像$f \colon \mathbb{N} \longrightarrow X$で
   \begin{align}
     \begin{aligned}
-      f(0) & = x_0 \\
+      f(0) & = x_0 , \\
       f(n) & = G \left( f|_{\mathbb{N} \langle n \rangle} \right)
       \quad ( n \in \mathbb{N} - \Set{0} )
     \end{aligned}
@@ -137,8 +272,7 @@ style=phys
   だから$f(n+1) = G \left( f|_{\mathbb{N} \langle n+1 \rangle} \right) =
   G \left ( g |_{\mathbb{N} \langle n+1 \rangle} \right) = g(n+1)$
   より$f(n+1) =g(n+1)$となる．
-  ゆえに$f(n) = g(n)$となるから，
-  すべての$n \in \mathbb{N}$に対して$f(n) = g(n)$となり，
+  ゆえにすべての$n \in \mathbb{N}$に対して$f(n) = g(n)$となり，
   $f=g$を得る．
 
   \prettyref{eq:inddef}を満たす写像の存在を示そう．
@@ -169,14 +303,11 @@ style=phys
   すべての自然数$n$に対して$P(n)$が成り立つ．
   そこで，写像$f \colon \mathbb{N} \longrightarrow X$を
   \begin{align*}
-    f(n) = f_{n+1} (n) \quad ( n \in \mathbb{N} )
+    f(0) & = x_0 , \\ 
+    f(n) & = f_{n+1} (n) \quad ( n \in \mathbb{N} - \Set{0})
   \end{align*}
   と定めると，この$f$は\prettyref{eq:inddef}を満たす．
 \end{proof}
-
-\prettyref{thm:inddef}において，各
-$\varPhi \in \bigcup_{n \in \mathbb{N}} X^{\mathbb{N} \langle n \rangle}$
-に対して$\varPhi \in X^{ \mathbb{N} \langle i \rangle}$となる
 
 %
 \printbibliography[title=参考文献]

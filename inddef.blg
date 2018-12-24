@@ -1,10 +1,16 @@
 [1] Config.pm:302> INFO - This is Biber 2.11
-[2] Config.pm:305> INFO - Logfile is 'inddef.blg'
-[57] biber:313> INFO - === 月 12月 24, 2018, 06:34:23
-[86] Biber.pm:371> INFO - Reading 'inddef.bcf'
-[192] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
-[205] Utils.pm:193> WARN - The file 'inddef.bcf' does not contain any citations!
-[219] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
-[219] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[220] bbl.pm:720> INFO - Output to inddef.bbl
-[220] Biber.pm:110> INFO - WARNINGS: 1
+[1] Config.pm:305> INFO - Logfile is 'inddef.blg'
+[49] biber:313> INFO - === 月 12月 24, 2018, 21:10:58
+[80] Biber.pm:371> INFO - Reading 'inddef.bcf'
+[184] Biber.pm:857> INFO - Found 2 citekeys in bib section 0
+[207] Biber.pm:3976> INFO - Processing section 0
+[226] Biber.pm:4136> INFO - Looking for bibtex format file 'bib/youryou.bib' for section 0
+[227] bibtex.pm:1500> INFO - LaTeX decoding ...
+[234] bibtex.pm:1316> INFO - Found BibTeX data source 'bib/youryou.bib'
+[252] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[252] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[252] Biber.pm:3804> INFO - Sorting list 'mysorting/global//global/global' of type 'entry' with template 'mysorting' and locale 'en-US'
+[252] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[256] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
+[256] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[259] bbl.pm:720> INFO - Output to inddef.bbl

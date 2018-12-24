@@ -1978,6 +1978,8 @@
     <bcf:datasource type="file" datatype="bibtex">bib/youryou.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">kyoukasyo</bcf:citekey>
+    <bcf:citekey order="2">chert</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="mysorting">

@@ -16,5 +16,29 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{mysorting/global//global/global}
+    \entry{kyoukasyo}{book}{}
+      \list{publisher}{1}{%
+        {数研出版株式会社}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{title}{改訂版 高等学校 数学{B}}
+      \field{year}{2018}
+    \endentry
+    \entry{chert}{book}{}
+      \list{publisher}{1}{%
+        {数研出版株式会社}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labeltitlesource}{title}
+      \field{title}{新課程 チャート式 基礎からの数学{Ⅱ+B}}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
