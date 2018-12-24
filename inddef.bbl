@@ -16,35 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{mysorting/global//global/global}
-    \entry{youryoukai}{article}{}
-      \name{author}{1}{}{%
-        {{hash=ed3362d9c8f014345566574f73e9fe0c}{%
-           family={文部科学省},
-           familyi={文\bibinitperiod}}}%
-      }
-      \strng{namehash}{ed3362d9c8f014345566574f73e9fe0c}
-      \strng{fullhash}{ed3362d9c8f014345566574f73e9fe0c}
-      \strng{bibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
-      \strng{authorbibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
-      \strng{authornamehash}{ed3362d9c8f014345566574f73e9fe0c}
-      \strng{authorfullhash}{ed3362d9c8f014345566574f73e9fe0c}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{高等学校学習指導要領解説 数学編}
-      \field{year}{2009}
-      \verb{urlraw}
-      \verb http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2012/06/06/1282000_5.pdf
-      \endverb
-      \verb{url}
-      \verb http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2012/06/06/1282000_5.pdf
-      \endverb
-    \endentry
-  \enddatalist
-\endrefsection
 \endinput
 

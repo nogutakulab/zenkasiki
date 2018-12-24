@@ -1,16 +1,10 @@
 [1] Config.pm:302> INFO - This is Biber 2.11
-[1] Config.pm:305> INFO - Logfile is 'inddef.blg'
-[54] biber:313> INFO - === 月 12月 24, 2018, 00:08:39
-[84] Biber.pm:371> INFO - Reading 'inddef.bcf'
-[187] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
-[212] Biber.pm:3976> INFO - Processing section 0
-[230] Biber.pm:4136> INFO - Looking for bibtex format file 'bib/youryou.bib' for section 0
-[231] bibtex.pm:1500> INFO - LaTeX decoding ...
-[235] bibtex.pm:1316> INFO - Found BibTeX data source 'bib/youryou.bib'
-[274] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[274] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[275] Biber.pm:3804> INFO - Sorting list 'mysorting/global//global/global' of type 'entry' with template 'mysorting' and locale 'en-US'
-[275] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[283] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
-[284] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[287] bbl.pm:720> INFO - Output to inddef.bbl
+[2] Config.pm:305> INFO - Logfile is 'inddef.blg'
+[57] biber:313> INFO - === 月 12月 24, 2018, 06:34:23
+[86] Biber.pm:371> INFO - Reading 'inddef.bcf'
+[192] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[205] Utils.pm:193> WARN - The file 'inddef.bcf' does not contain any citations!
+[219] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
+[219] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[220] bbl.pm:720> INFO - Output to inddef.bbl
+[220] Biber.pm:110> INFO - WARNINGS: 1

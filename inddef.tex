@@ -13,6 +13,7 @@
 \newrefformat{thm}{定理{\ref{#1}}}
 \newrefformat{ex}{例{\ref{#1}}}
 \newrefformat{lemma}{補題{\ref{#1}}}
+\newrefformat{que}{問{\ref{#1}}}
 %
 %%%%%%======biblatex=============%%%%%%%%%%
 %
@@ -61,11 +62,11 @@ style=phys
 {\thmname{#1}\thmnumber{#2}\thmnote{\textbf{\hspace{1pt}（#3）}}} % theorem head spec
 \theoremstyle{mystyle} % 作成したスタイルを使用
 %
-\newtheorem*{dfn}{定義} % \begin{dfn} で定義を書く
 \newtheorem{thm}{定理} % \begin{thm} で定理を書く
-\newtheorem{ex}{例} % \begin{ex} で例を出す
 \newtheorem{lemma}{補題} % \begin{lemma} で補題
 \newtheorem*{coro}{系}  % \begin{coro} で系
+\newtheorem{que}{問} % \begin{que} で問
+\newtheorem*{ans}{［解答］} % \begin{ans}で解答
 %
 %
 %%%%%================proof環境のカスタマイズ========================%%%%%%%%%%%
@@ -93,7 +94,90 @@ style=phys
 %
 \maketitle
 %
-ほげほげ\cite{youryoukai}
+漸化式によって帰納的に定義された数列の一般項を求める
+という問題は，大学受験レベルの問題でよくあるものである．
+その中で，「一般項を推測して帰納法で示す」というものがあった．
+高校の数学Bの教科書を見てみると，次のような問題が記載されている．
+\begin{que} \label{que:suisoku}
+  （ここに引用する問題が入る）
+\end{que}
+この問題に対する解答は次のようになっている．
+\begin{ans}
+  ここに解答
+\end{ans}
+
+定式化して証明を述べておこう．
+\begin{thm} \label{thm:inddef}
+  空でない集合$X$と写像$G \colon \bigcup_{n \in \mathbb{N}} 
+  X^{\mathbb{N} \langle n \rangle} \longrightarrow X$
+  が与えられたとする．
+  このとき，$x_0 \in X$を1つ定めるごとに，
+  写像$f \colon \mathbb{N} \longrightarrow X$で
+  \begin{align}
+    \begin{aligned}
+      f(0) & = x_0 \\
+      f(n) & = G \left( f|_{\mathbb{N} \langle n \rangle} \right)
+      \quad ( n \in \mathbb{N} - \Set{0} )
+    \end{aligned}
+    \label{eq:inddef}
+  \end{align}
+  を満たすものが一意に定まる．
+\end{thm}
+
+\begin{proof}
+  先に一意性の方から示しておこう．
+  写像$f,g \colon \mathbb{N} \longrightarrow X$で
+  \prettyref{eq:inddef}を満たすようなものを任意にとり，
+  すべての$n \in \mathbb{N}$に対して$f(n) = g(n)$が成り立つことを
+  帰納法で示す．
+  $f(0) = x_0 = g(0)$より$f(0)=g(0)$である．
+  各$n \in \mathbb{N}$に対し，$i= 0,1, \ldots, n$に対して
+  $f(i)=g(i)$であるとすると，
+  $f|_{\mathbb{N} \langle n+1 \rangle} = g|_{\mathbb{N} \langle n+1 \rangle} $
+  だから$f(n+1) = G \left( f|_{\mathbb{N} \langle n+1 \rangle} \right) =
+  G \left ( g |_{\mathbb{N} \langle n+1 \rangle} \right) = g(n+1)$
+  より$f(n+1) =g(n+1)$となる．
+  ゆえに$f(n) = g(n)$となるから，
+  すべての$n \in \mathbb{N}$に対して$f(n) = g(n)$となり，
+  $f=g$を得る．
+
+  \prettyref{eq:inddef}を満たす写像の存在を示そう．
+  自然数$n$の条件$P(n)$を
+  「写像$f \colon \mathbb{N} \langle n \rangle \longrightarrow X$で
+  すべての$m \in \mathbb{N} \langle n \rangle$に対して
+  $f(m) = G \left( f|_{\mathbb{N} \langle m \rangle } \right)$
+  を満たすものが存在する」と定める．
+  一意性の証明とまったく同様にして，
+  各$n \in \mathbb{N}$に対して$P(n)$を成り立たせるような写像$f$は
+  たかだか1つであることが示される．その写像を$f_n$と表記する．
+  すべての自然数$n$に対して$P(n)$が成り立つことを帰納法によって示そう．
+  $\mathbb{N} \langle 0 \rangle = \varnothing$だから，
+  $P(0)$を成り立たせるような写像$f$として空写像がとれる．従って$P(0)$は成り立つ．
+  各$n \in \mathbb{N}$に対し，$i=0,1,\ldots,n$に対して
+  $P(i)$が成り立つと仮定する．
+  いま，写像$f \colon \mathbb{N} \langle n+1 \rangle \longrightarrow X$を
+  \begin{align*}
+    f (m) = 
+    \begin{cases}
+      G \left( f_{m} \right) & ( \text{$m=n$のとき} ) , \\
+      f_{m+1} (m) & (\text{それ以外のとき})
+    \end{cases}
+  \end{align*}
+  と定めると，この$f$はすべての$m \in \mathbb{N} \langle n+1 \rangle$
+  に対して$f(m) = G \left( f|_{\mathbb{N} \langle m \rangle} \right)$
+  を満たす．ゆえに$P(n+1)$も成り立つから，
+  すべての自然数$n$に対して$P(n)$が成り立つ．
+  そこで，写像$f \colon \mathbb{N} \longrightarrow X$を
+  \begin{align*}
+    f(n) = f_{n+1} (n) \quad ( n \in \mathbb{N} )
+  \end{align*}
+  と定めると，この$f$は\prettyref{eq:inddef}を満たす．
+\end{proof}
+
+\prettyref{thm:inddef}において，各
+$\varPhi \in \bigcup_{n \in \mathbb{N}} X^{\mathbb{N} \langle n \rangle}$
+に対して$\varPhi \in X^{ \mathbb{N} \langle i \rangle}$となる
+
 %
 \printbibliography[title=参考文献]
 \end{document}
