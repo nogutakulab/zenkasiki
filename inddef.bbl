@@ -26,6 +26,7 @@
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
+      \field{isbn}{978-4-410-80217-1}
       \field{title}{改訂版 高等学校 数学{B}}
       \field{year}{2018}
     \endentry
@@ -36,7 +37,40 @@
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labeltitlesource}{title}
+      \field{isbn}{978-4-410-10585-2}
       \field{title}{新課程 チャート式 基礎からの数学{Ⅱ+B}}
+    \endentry
+    \entry{youryou}{book}{}
+      \list{publisher}{1}{%
+        {文部科学省}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labeltitlesource}{title}
+      \field{title}{高等学校学習指導要領}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2011/03/30/1304427_002.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2011/03/30/1304427_002.pdf
+      \endverb
+    \endentry
+    \entry{youryoukai}{book}{}
+      \list{publisher}{1}{%
+        {文部科学省}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{title}{高等学校学習指導要領解説 数学編}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2012/06/06/1282000_5.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.mext.go.jp/component/a_menu/education/micro_detail/__icsFiles/afieldfile/2012/06/06/1282000_5.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

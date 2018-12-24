@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  24 DEC 2018 22:39
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  25 DEC 2018 00:32
  restricted system commands enabled.
 **inddef.tex
 (./inddef.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.239 seconds
+luaotfload | main : initialization completed in 0.247 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/09/23 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1176,24 +1176,24 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'inddef.bbl' found.
  (./inddef.bbl
-LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 31.
+LaTeX Font Info:    Calculating math sizes for size <10.95001> on input line 32.
 
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 31.
+(Font)              scaled to size 6.47295pt on input line 32.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 31.
-LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+(Font)              scaled to size 4.62357pt on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+LaTeX Font Info:    Try loading font information for U+msb on input line 32.
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 6.47295pt on input line 31.
+(Font)              scaled to size 6.47295pt on input line 32.
 luaotfload | aux : font no 62 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 62)
@@ -1334,43 +1334,43 @@ LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
 (Font)              scaled to size 5.17834pt on input line 234.
 luaotfload | aux : font no 110 (nil) does not define feature vrt2 for script dfl
 t with language dflt
-luaotfload | aux : no font with id 110
+luaotfload | aux : no font with id 110 [3] [4]
 LaTeX Font Info:    Font shape `JT3/mc/bx/it' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 263.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 400.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 263.
+(Font)              scaled to size 8.44485pt on input line 400.
 luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/mc/bx/it' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 263.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 400.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 263.
-[3]
+(Font)              scaled to size 8.44485pt on input line 400.
+ [5]
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 299.
+(Font)              scaled to size 4.62357pt on input line 436.
 luaotfload | aux : font no 122 (nil) does not define feature vrt2 for script dfl
 t with language dflt
 luaotfload | aux : no font with id 122
 LaTeX Font Info:    Font shape `JT3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 313.
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 457.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 313.
+(Font)              scaled to size 8.44485pt on input line 457.
 luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 21
 LaTeX Font Info:    Font shape `JY3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 313.
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 457.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 313.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
+(Font)              scaled to size 8.44485pt on input line 457.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (./inddef.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
 Package rerunfilecheck Info: File `inddef.out' has not changed.
-(rerunfilecheck)             Checksum: A00DBB48410DEF78161168784A5087D2;270.
+(rerunfilecheck)             Checksum: 8E84A434863B9D1AE57B2DFDFB43C724;556.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1382,37 +1382,43 @@ Package logreq Info: Writing requests to 'inddef.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28445 strings out of 494407
- 244158,1144653 words of node,token memory allocated
- 13073 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 23 glue, 160 kern, 1 glyph, 4535 attribute, 455 gl
-ue_spec, 237 attribute_list, 1 write, 15 user_defined nodes
-   avail lists: 1:27,2:77477,3:440,4:297,5:83,6:35,7:5852,8:1813,9:641,10:25
- 31852 multiletter control sequences out of 65536+600000
- 128 fonts using 67777591 bytes
+ 28468 strings out of 494407
+ 305205,1144653 words of node,token memory allocated
+ 15460 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 39 glue, 166 kern, 1 glyph, 5015 attribute, 700 gl
+ue_spec, 261 attribute_list, 1 write, 15 user_defined, 2 pdf_action nodes
+   avail lists: 1:27,2:84175,3:469,4:290,5:111,6:34,7:6329,8:2203,9:641,10:38,11
+:16
+ 31865 multiletter control sequences out of 65536+600000
+ 129 fonts using 67903671 bytes
  56i,19n,74p,983b,1099s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regul
-ar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman6-reg
-ular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman7-r
-egular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman1
-0-bold.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipaex
-g.ttf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans12-regu
-lar.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10-r
-egular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman1
-2-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ip
-aexm.ttf></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex
-10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
-.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/loca
-l/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/l
-ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on inddef.pdf (4 pages, 397473 bytes).
+</usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.ot
+f></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmromancaps10-reg
+ular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman6-r
+egular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman7
+-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroma
+n10-bold.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/ipa
+exg.ttf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmsans12-re
+gular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroman10
+-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/opentype/public/lm/lmroma
+n12-regular.otf></usr/local/texlive/2018/texmf-dist/fonts/truetype/public/ipaex/
+ipaexm.ttf></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
+Output written on inddef.pdf (6 pages, 487997 bytes).
 
-PDF statistics: 167 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 20 named destinations out of 1000 (max. 131072)
- 17 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 237 PDF objects out of 1000 (max. 8388607)
+ 184 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 131072)
+ 33 words of extra memory for PDF output out of 10000 (max. 100000000)
 
