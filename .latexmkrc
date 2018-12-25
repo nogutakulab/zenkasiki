@@ -1,6 +1,6 @@
 #!/usr/bin/perl
-$latex = 'uplatex -guess-input-enc -src-specials -interaction=nonstopmode -synctex=1';
-$latex_silent = 'uplatex -interaction=batchmode';
+$latex = 'lualatex -guess-input-enc -src-specials -interaction=nonstopmode -synctex=1';
+$latex_silent = 'lualatex -interaction=batchmode';
 $dvips = 'dvips';
 $bibtex = 'pbibtex';
 $biber = 'biber --bblencoding=utf8 -u -U --output_safechars';

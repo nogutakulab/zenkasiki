@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  25 DEC 2018 00:32
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  25 DEC 2018 13:44
  restricted system commands enabled.
 **inddef.tex
 (./inddef.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.247 seconds
+luaotfload | main : initialization completed in 0.268 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/09/23 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1264,111 +1264,111 @@ LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
 (Font)              scaled to size 5.54828pt on input line 99.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 127.
+(Font)              scaled to size 13.31584pt on input line 121.
 luaotfload | aux : font no 92 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 92
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 127.
+(Font)              scaled to size 13.31584pt on input line 121.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 127.
+(Font)              scaled to size 13.31584pt on input line 121.
 luaotfload | aux : font no 94 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 94
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 13.31584pt on input line 127.
+(Font)              scaled to size 13.31584pt on input line 121.
  [1
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 214.
+(Font)              scaled to size 9.24713pt on input line 208.
 luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 9.24713pt on input line 214.
+(Font)              scaled to size 9.24713pt on input line 208.
 LaTeX Font Info:    Font shape `JT3/gt/m/it' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 214.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 208.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 214.
+(Font)              scaled to size 8.44485pt on input line 208.
 luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/gt/m/it' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 214.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 208.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 214.
+(Font)              scaled to size 8.44485pt on input line 208.
  [2]
-LaTeX Font Info:    Calculating math sizes for size <8.76001> on input line 234.
+LaTeX Font Info:    Calculating math sizes for size <8.76001> on input line 228.
 
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.59996> not available
-(Font)              size <6> substituted on input line 234.
+(Font)              size <6> substituted on input line 228.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4> not available
-(Font)              size <5> substituted on input line 234.
+(Font)              size <5> substituted on input line 228.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 234.
+(Font)              size <6> substituted on input line 228.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 234.
+(Font)              size <5> substituted on input line 228.
 
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 234.
+(Font)              scaled to size 5.17834pt on input line 228.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 3.69885pt on input line 234.
+(Font)              scaled to size 3.69885pt on input line 228.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.59996> not available
-(Font)              size <6> substituted on input line 234.
+(Font)              size <6> substituted on input line 228.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 234.
+(Font)              size <5> substituted on input line 228.
 
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 5.17834pt on input line 234.
+(Font)              scaled to size 5.17834pt on input line 228.
 luaotfload | aux : font no 110 (nil) does not define feature vrt2 for script dfl
 t with language dflt
 luaotfload | aux : no font with id 110 [3] [4]
 LaTeX Font Info:    Font shape `JT3/mc/bx/it' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 400.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 399.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 400.
+(Font)              scaled to size 8.44485pt on input line 399.
 luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/mc/bx/it' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 400.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 399.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 400.
+(Font)              scaled to size 8.44485pt on input line 399.
  [5]
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 436.
+(Font)              scaled to size 4.62357pt on input line 435.
 luaotfload | aux : font no 122 (nil) does not define feature vrt2 for script dfl
 t with language dflt
 luaotfload | aux : no font with id 122
 LaTeX Font Info:    Font shape `JT3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 457.
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 456.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 457.
+(Font)              scaled to size 8.44485pt on input line 456.
 luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 21
 LaTeX Font Info:    Font shape `JY3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 457.
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 456.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 457.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+(Font)              scaled to size 8.44485pt on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
  [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
  (./inddef.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
 Package rerunfilecheck Info: File `inddef.out' has not changed.
 (rerunfilecheck)             Checksum: 8E84A434863B9D1AE57B2DFDFB43C724;556.
 
@@ -1383,12 +1383,12 @@ Package logreq Info: Writing requests to 'inddef.run.xml'.
 
 Here is how much of LuaTeX's memory you used:
  28468 strings out of 494407
- 305205,1144653 words of node,token memory allocated
- 15460 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 39 glue, 166 kern, 1 glyph, 5015 attribute, 700 gl
-ue_spec, 261 attribute_list, 1 write, 15 user_defined, 2 pdf_action nodes
-   avail lists: 1:27,2:84175,3:469,4:290,5:111,6:34,7:6329,8:2203,9:641,10:38,11
-:16
+ 244154,1144653 words of node,token memory allocated
+ 15479 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 40 glue, 166 kern, 1 glyph, 5035 attribute, 694 gl
+ue_spec, 262 attribute_list, 1 write, 15 user_defined, 2 pdf_action nodes
+   avail lists: 1:24,2:77044,3:452,4:278,5:67,6:35,7:6043,8:2081,9:629,10:38,11:
+16
  31865 multiletter control sequences out of 65536+600000
  129 fonts using 67903671 bytes
  56i,19n,74p,983b,1099s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -1415,10 +1415,10 @@ live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
 018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texliv
 e/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb>
-Output written on inddef.pdf (6 pages, 487997 bytes).
+Output written on inddef.pdf (6 pages, 487127 bytes).
 
-PDF statistics: 237 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+PDF statistics: 238 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  29 named destinations out of 1000 (max. 131072)
  33 words of extra memory for PDF output out of 10000 (max. 100000000)
 
