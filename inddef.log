@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  28 DEC 2018 03:07
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  28 DEC 2018 03:22
  restricted system commands enabled.
 **inddef.tex
 (./inddef.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.248 seconds
+luaotfload | main : initialization completed in 0.965 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/09/23 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1335,39 +1335,39 @@ luaotfload | aux : font no 110 (nil) does not define feature vrt2 for script dfl
 t with language dflt
 luaotfload | aux : no font with id 110 [3] [4]
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 4.62357pt on input line 360.
+(Font)              scaled to size 4.62357pt on input line 357.
 luaotfload | aux : font no 111 (nil) does not define feature vrt2 for script dfl
 t with language dflt
 luaotfload | aux : no font with id 111 [5] [6] [7]
 LaTeX Font Info:    Font shape `JT3/mc/bx/it' in size <10> not available
-(Font)              Font shape `JT3/gt/m/n' tried instead on input line 574.
+(Font)              Font shape `JT3/gt/m/n' tried instead on input line 571.
 LaTeX Font Info:    Font shape `JT3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 574.
+(Font)              scaled to size 8.44485pt on input line 571.
 luaotfload | aux : font no 37 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 37
 LaTeX Font Info:    Font shape `JY3/mc/bx/it' in size <10> not available
-(Font)              Font shape `JY3/gt/m/n' tried instead on input line 574.
+(Font)              Font shape `JY3/gt/m/n' tried instead on input line 571.
 LaTeX Font Info:    Font shape `JY3/gt/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 574.
+(Font)              scaled to size 8.44485pt on input line 571.
  [8]
 LaTeX Font Info:    Font shape `JT3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JT3/mc/m/n' tried instead on input line 658.
+(Font)              Font shape `JT3/mc/m/n' tried instead on input line 655.
 LaTeX Font Info:    Font shape `JT3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 658.
+(Font)              scaled to size 8.44485pt on input line 655.
 luaotfload | aux : font no 21 (nil) does not define feature vrt2 for script dflt
  with language dflt
 luaotfload | aux : no font with id 21
 LaTeX Font Info:    Font shape `JY3/mc/m/sc' in size <10> not available
-(Font)              Font shape `JY3/mc/m/n' tried instead on input line 658.
+(Font)              Font shape `JY3/mc/m/n' tried instead on input line 655.
 LaTeX Font Info:    Font shape `JY3/mc/m/n' will be
-(Font)              scaled to size 8.44485pt on input line 658.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 659.
+(Font)              scaled to size 8.44485pt on input line 655.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 656.
  [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 659.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 656.
  (./inddef.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 659.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 659.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 656.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 656.
 Package rerunfilecheck Info: File `inddef.out' has not changed.
 (rerunfilecheck)             Checksum: 6A948140104BFB9C781ECD3C12721E67;715.
 
@@ -1383,10 +1383,10 @@ Package logreq Info: Writing requests to 'inddef.run.xml'.
 Here is how much of LuaTeX's memory you used:
  28505 strings out of 494407
  244168,1144653 words of node,token memory allocated
- 18481 words of node memory still in use:
-   11 hlist, 2 vlist, 5 rule, 59 glue, 176 kern, 1 glyph, 5655 attribute, 995 gl
+ 18466 words of node memory still in use:
+   11 hlist, 2 vlist, 5 rule, 59 glue, 176 kern, 1 glyph, 5655 attribute, 992 gl
 ue_spec, 293 attribute_list, 1 write, 15 user_defined, 4 pdf_action nodes
-   avail lists: 1:21,2:73674,3:437,4:300,5:221,6:30,7:6077,8:2151,9:653,10:34,11
+   avail lists: 1:21,2:69879,3:417,4:300,5:221,6:30,7:5759,8:2048,9:653,10:34,11
 :20
  31881 multiletter control sequences out of 65536+600000
  129 fonts using 67903671 bytes
@@ -1409,7 +1409,7 @@ pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on inddef.pdf (9 pages, 490814 bytes).
+Output written on inddef.pdf (9 pages, 489744 bytes).
 
 PDF statistics: 274 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams
