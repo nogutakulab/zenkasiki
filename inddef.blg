@@ -1,16 +1,16 @@
 [1] Config.pm:302> INFO - This is Biber 2.11
 [1] Config.pm:305> INFO - Logfile is 'inddef.blg'
-[48] biber:313> INFO - === 火 12月 25, 2018, 13:44:05
-[77] Biber.pm:371> INFO - Reading 'inddef.bcf'
-[185] Biber.pm:857> INFO - Found 4 citekeys in bib section 0
-[210] Biber.pm:3976> INFO - Processing section 0
-[235] Biber.pm:4136> INFO - Looking for bibtex format file 'bib/youryou.bib' for section 0
-[237] bibtex.pm:1500> INFO - LaTeX decoding ...
-[246] bibtex.pm:1316> INFO - Found BibTeX data source 'bib/youryou.bib'
-[303] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[303] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[303] Biber.pm:3804> INFO - Sorting list 'mysorting/global//global/global' of type 'entry' with template 'mysorting' and locale 'en-US'
-[303] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[316] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
-[316] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[321] bbl.pm:720> INFO - Output to inddef.bbl
+[48] biber:313> INFO - === 金 12月 28, 2018, 02:48:13
+[80] Biber.pm:371> INFO - Reading 'inddef.bcf'
+[181] Biber.pm:857> INFO - Found 6 citekeys in bib section 0
+[202] Biber.pm:3976> INFO - Processing section 0
+[222] Biber.pm:4136> INFO - Looking for bibtex format file 'bib/youryou.bib' for section 0
+[224] bibtex.pm:1500> INFO - LaTeX decoding ...
+[232] bibtex.pm:1316> INFO - Found BibTeX data source 'bib/youryou.bib'
+[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[312] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[312] Biber.pm:3804> INFO - Sorting list 'mysorting/global//global/global' of type 'entry' with template 'mysorting' and locale 'en-US'
+[312] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[325] bbl.pm:617> INFO - Writing 'inddef.bbl' with encoding 'UTF-8'
+[325] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[334] bbl.pm:720> INFO - Output to inddef.bbl

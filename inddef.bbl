@@ -19,12 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{mysorting/global//global/global}
+    \entry{izumi}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3c4796d59bd822714afced177871fb8e}{%
+           family={牧夫},
+           familyi={牧\bibinitperiod},
+           given={原田},
+           giveni={原\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c4796d59bd822714afced177871fb8e}
+      \strng{fullhash}{3c4796d59bd822714afced177871fb8e}
+      \strng{bibnamehash}{3c4796d59bd822714afced177871fb8e}
+      \strng{authorbibnamehash}{3c4796d59bd822714afced177871fb8e}
+      \strng{authornamehash}{3c4796d59bd822714afced177871fb8e}
+      \strng{authorfullhash}{3c4796d59bd822714afced177871fb8e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{数学のいずみ 数学的帰納法の「応用」}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://izumi-math.jp/M_Harada/kinou_o/kinou_o.pdf
+      \endverb
+      \verb{url}
+      \verb http://izumi-math.jp/M_Harada/kinou_o/kinou_o.pdf
+      \endverb
+    \endentry
     \entry{kyoukasyo}{book}{}
       \list{publisher}{1}{%
         {数研出版株式会社}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labeltitlesource}{title}
       \field{isbn}{978-4-410-80217-1}
       \field{title}{改訂版 高等学校 数学{B}}
@@ -34,18 +65,56 @@
       \list{publisher}{1}{%
         {数研出版株式会社}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labeltitlesource}{title}
       \field{isbn}{978-4-410-10585-2}
       \field{title}{新課程 チャート式 基礎からの数学{Ⅱ+B}}
+      \field{year}{2015}
+    \endentry
+    \entry{monkasyo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ed3362d9c8f014345566574f73e9fe0c}{%
+           family={文部科学省},
+           familyi={文\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{fullhash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{bibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authorbibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authornamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authorfullhash}{ed3362d9c8f014345566574f73e9fe0c}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{学習指導要領（解説）等の位置付けについて}
+      \field{urlday}{28}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/039/siryo/attach/1402682.htm
+      \endverb
+      \verb{url}
+      \verb http://www.mext.go.jp/b_menu/shingi/chukyo/chukyo3/039/siryo/attach/1402682.htm
+      \endverb
     \endentry
     \entry{youryou}{book}{}
-      \list{publisher}{1}{%
-        {文部科学省}%
+      \name{author}{1}{}{%
+        {{hash=ed3362d9c8f014345566574f73e9fe0c}{%
+           family={文部科学省},
+           familyi={文\bibinitperiod}}}%
       }
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \strng{namehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{fullhash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{bibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authorbibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authornamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authorfullhash}{ed3362d9c8f014345566574f73e9fe0c}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{高等学校学習指導要領}
       \field{year}{2009}
@@ -57,11 +126,20 @@
       \endverb
     \endentry
     \entry{youryoukai}{book}{}
-      \list{publisher}{1}{%
-        {文部科学省}%
+      \name{author}{1}{}{%
+        {{hash=ed3362d9c8f014345566574f73e9fe0c}{%
+           family={文部科学省},
+           familyi={文\bibinitperiod}}}%
       }
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \strng{namehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{fullhash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{bibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authorbibnamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authornamehash}{ed3362d9c8f014345566574f73e9fe0c}
+      \strng{authorfullhash}{ed3362d9c8f014345566574f73e9fe0c}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{高等学校学習指導要領解説 数学編}
       \field{year}{2009}
