@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  28 DEC 2018 03:22
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.10.31)  28 DEC 2018 10:30
  restricted system commands enabled.
 **inddef.tex
 (./inddef.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.965 seconds
+luaotfload | main : initialization completed in 1.098 seconds
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/ltjsarticle.cls
 Document Class: ltjsarticle 2018/09/23 ltjsclasses 
 (/usr/local/texlive/2018/texmf-dist/tex/luatex/luatexja/luatexja.sty
@@ -1409,7 +1409,7 @@ pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
 /local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/lo
 cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on inddef.pdf (9 pages, 489744 bytes).
+Output written on inddef.pdf (9 pages, 489784 bytes).
 
 PDF statistics: 274 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams
